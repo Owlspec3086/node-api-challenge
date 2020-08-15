@@ -38,15 +38,27 @@ Commit your code regularly and use descriptive messages. This helps both you (in
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
 
--   [ ] Mention two parts of Express that you learned about this week.
+-   [x] Mention two parts of Express that you learned about this week.
+    
+    Answer: This week on part of express I'ved learned about was the router feature which is on of the main features when dealing with express.
+    The second part deals with express middleware, in which it is compatible with connect middleware. This web application framework is for Node.js and "only provides the middleware layer. 
 
--   [ ] Describe Middleware?
+-   [x] Describe Middleware?
+    
+    Answer: Middleware can add extra functionality to an application, which will provide a way to extend feature for the express framework, the small functions can handle one aspect of the application, such task as authentication and logging. Middleware provides an easy way to add modularity to code also.
 
--   [ ] Describe a Resource?
 
--   [ ] What can the API return to help clients know if a request was successful?
+-   [x] Describe a Resource?
+    
+    Answer: A resource is an item that recieves CRUD actions
 
--   [ ] How can we partition our application into sub-applications?
+-   [x] What can the API return to help clients know if a request was successful?
+    
+    Answer: The API can let clients know it's successful with recieving a res.status(200)(which will tell you if the api is function) and a JSON message in which will let you know success happened in the application
+
+-   [x] How can we partition our application into sub-applications?
+    
+    Answer: By using express router, this behaves like a mini express application. This can have its own routing and middleware, although it needs to reside inside of the express application.
 
 ## Minimum Viable Product
 
